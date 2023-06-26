@@ -4,5 +4,5 @@ metadata:
   name: "node-template-app"
 spec:
   type: service
-  owner: user:guest
+  owner: group:default/software
   lifecycle: experimental
