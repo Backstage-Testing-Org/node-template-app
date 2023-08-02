@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "node-template-app"
-annotations:
+  annotations:
     github.com/project-slug: Backstage-Testing-Org/node-template-app
     backstage.io/techdocs-ref: dir:.
 spec:
