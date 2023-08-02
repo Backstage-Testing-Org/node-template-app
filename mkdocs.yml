@@ -1,0 +1,8 @@
+site_name: "My Awesome Doc"
+site_description: "Description of my awesome doc"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
