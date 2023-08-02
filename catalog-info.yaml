@@ -2,6 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "node-template-app"
+annotations:
+    github.com/project-slug: Backstage-Testing-Org/node-template-app
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: group:default/software
