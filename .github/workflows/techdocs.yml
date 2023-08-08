@@ -38,6 +38,9 @@ jobs:
           IFS='/' read -ra NAMESPACE_NAME <<< "$ENTITY_NAMESPACE_NAME"
           ENTITY_NAMESPACE="${NAMESPACE_NAME[0]}"
           ENTITY_NAME="${NAMESPACE_NAME[1]}"
+          echo "ENTITY_KIND=$ENTITY_KIND"
+          echo "ENTITY_NAMESPACE=$ENTITY_NAMESPACE"
+          echo "ENTITY_NAME=$ENTITY_NAME"
 
       - name: Checkout code
         uses: actions/checkout@v3
@@ -63,6 +66,9 @@ jobs:
           chmod +x "$HOME/.local/bin/plantuml"
           echo "$HOME/.local/bin" >> $GITHUB_PATH
           sudo apt-get install -y graphviz
+          echo "ENTITY_KIND=$ENTITY_KIND"
+          echo "ENTITY_NAMESPACE=$ENTITY_NAMESPACE"
+          echo "ENTITY_NAME=$ENTITY_NAME"
 
       - name: Install techdocs-cli
         run: sudo npm install -g @techdocs/cli
