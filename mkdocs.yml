@@ -1,5 +1,5 @@
-site_name: "My Awesome Doc"
-site_description: "Description of my awesome doc"
+site_name: "Node template app documentation"
+site_description: "Documentation for node service"
 
 nav:
   - Introduction: index.md
