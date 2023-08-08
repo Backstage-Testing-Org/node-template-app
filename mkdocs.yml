@@ -1,0 +1,8 @@
+site_name: "Node template app documentation"
+site_description: "Documentation for node service"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
