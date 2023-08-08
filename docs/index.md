@@ -1,6 +1,6 @@
 ## Node template app documentation
 
-Documentation for node service
+Documentation for node service js
 
 ## Getting started
 
