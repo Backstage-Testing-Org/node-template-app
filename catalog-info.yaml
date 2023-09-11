@@ -5,6 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: Backstage-Testing-Org/node-template-app
     backstage.io/techdocs-ref: dir:.
+    loki/service-label: "service=backstage"
 spec:
   type: service
   owner: group:default/software
